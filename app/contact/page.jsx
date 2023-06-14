@@ -4,12 +4,12 @@ import { raleway } from "../font";
 const Contact = () => {
   return (
     <div className="bg-light">
-    <div className="w-full min-h-screen -mt-28 lg:-mt-36 flex flex-row flex-wrap bg-gradient-hack-background2 lg:bg-gradient-hack-background">
-      <div className="w-full  lg:w-1/2  p-[50px] pt-36 lg:pt-80 pb-30">
-        <h3 className="text-4xl text-primary font-semibold">
+    <div className="w-full min-h-screen -mt-28 lg:-mt-36 flex flex-row flex-wrap ">
+      <div className="w-full h-1/2 lg:h-auto bg-light lg:w-1/2  p-4 lg:p-[50px] pt-28 lg:pt-80 pb-30">
+        <h3 className="text-3xl lg:text-4xl text-primary font-semibold">
           CONTACT US. LET&apos;S GET YOUR PROJECT STARTED
         </h3>
-        <p className={`text-xl text-black  mt-8 ${raleway.className}`}>
+        <p className={`text-xl text-black  mt-4 lgmt-8 ${raleway.className}`}>
           Build your next innovation. It’s time to redefine what awesome really
           looks like.
         </p>
@@ -19,11 +19,11 @@ const Contact = () => {
           you as soon as possible to establish how best we can work together to
           make your project shine.
         </p>
-        <h3 className="text-4xl text-secondary font-bold mt-12 ">
+        <h3 className="text-3xl lg:text-4xl text-secondary font-bold mt-3 lg:mt-12 ">
           We&apos;re looking forward to hearing from you
         </h3>
       </div>
-      <div className="w-full lg:w-1/2  p-[50px] pt-36 lg:pt-80 pb-20  ">
+      <div className="w-full h-1/2 lg:h-auto lg:w-1/2  bg-secondary p-4 lg:p-[50px] pt-28 lg:pt-80 pb-30">
         <form className="w-full text-white text-lg">
           <div className=" w-full flex flex-wrap justify-between">
             <label className="w-[48%] inline-block">
@@ -72,7 +72,7 @@ const Contact = () => {
         <p className="text-xl mt-4">
         Head on over to our careers page and show us what you&apos;re made of!
         </p>
-        <button className="text-xl px-4 py-2 bg-secondary text-white mt-4">Check Careers</button>
+        <button className="text-xl px-4 py-2 bg-secondary text-white mt-4 rounded">Check Careers</button>
       </div>
               </div>
   );
