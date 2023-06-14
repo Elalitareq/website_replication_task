@@ -81,7 +81,10 @@ const Services = () => {
       <section className="p-[50px] flex justify-between flex-wrap">
         {myArray.map((card, index) => {
           return (
-          <ServiceCard key={index} card={card}/>
+            <div  key={index}  className="w-1/4">
+
+              <ServiceCard card={card}/>
+            </div>
           );
         })}
       </section>
