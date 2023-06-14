@@ -18,8 +18,10 @@ module.exports = {
         'accent': '#1b849b',
       },
       backgroundImage: {
+        'gradient-hack-background': 'linear-gradient(90deg,#e5f7fb 0%,#e5f7fb 50%,#00768F 50%,#00768F 100%)',
         'footer-background': 'url("assets/png/footer_background.png")',
         'card-background': 'url("assets/png/box-default.png")',
+        'about-background': 'url("assets/png/about-bg.png")',
         'services-background': 'url("assets/png/services_background.png")',
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

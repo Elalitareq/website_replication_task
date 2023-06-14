@@ -39,7 +39,7 @@
   display: block;
   position: absolute;
 }
-.white-navbar .nav-icon span {
+.nav-icon.scary:not(.open) span {
   background-color: #ffffff;
 }
 .white-navbar-custom .nav-icon span {

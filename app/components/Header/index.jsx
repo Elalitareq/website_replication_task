@@ -5,7 +5,7 @@ import React, { useEffect, useState } from "react";
 import logo from "../../assets/png/acksession_logo.png";
 import { usePathname } from "next/navigation";
 import CustomLink from "../CustomLink.jsx";
-
+import whiteLogo from "../../assets/png/acksession_logo_white.png"
 // application routes
 const routes = [
   { path: "/", label: "Home" },
@@ -41,13 +41,13 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed inset-0 w-full transition duration-500 h-28 lg:h-36 z-50 ${
-        scrollPosition > 50 || isNavOpen ? "bg-light" : "bg-white"
+      className={`fixed inset-0 w-full transition-colors duration-500 h-28 lg:h-36 z-50  ${
+        scrollPosition > 50 || isNavOpen ? "bg-light" : "bg-transparent"
       }`}
     >
       <div className="lg:w-full px-4 lg:px-[50px] py-4 lg:py-4 flex items-center justify-between relative">
         <Image
-          src={logo}
+          src={isNavOpen?logo:pathname==="/about"&&scrollPosition<50?whiteLogo:logo}
           alt="acksession logo"
           width={285}
           height={"auto"}
@@ -56,7 +56,7 @@ const Header = () => {
 
         <button
           onClick={toggleNav}
-          className={`nav-icon lg:hidden ${isNavOpen ? "open" : ""}`}
+          className={`nav-icon lg:hidden ${isNavOpen ? "open" : ""} ${(pathname==="/about"||pathname==="/contact")&&scrollPosition<50?"scary":""}`}
           type="button"
         >
           <span></span>
@@ -77,6 +77,8 @@ const Header = () => {
         >
           {routes.map((route, index) => (
             <CustomLink
+            textColored={scrollPosition>50}
+            isNavOpen={isNavOpen}
             closeNav={closeNav}
               path={route.path}
               label={route.label}

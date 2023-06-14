@@ -78,10 +78,10 @@ const Services = () => {
           and industry-specific domain expertise.
         </p>
       </section>
-      <section className="p-[50px] flex justify-between flex-wrap">
+      <section className="p-[50px] flex justify-center sm:justify-between flex-wrap">
         {myArray.map((card, index) => {
           return (
-            <div  key={index}  className="w-1/4">
+            <div  key={index}  className=" min-w-[25%]">
 
               <ServiceCard card={card}/>
             </div>
