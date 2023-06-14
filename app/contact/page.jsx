@@ -3,7 +3,7 @@ import { raleway } from "../font";
 
 const Contact = () => {
   return (
-    <div className="w-full min-h-screen -mt-28 lg:-mt-36 flex flex-row flex-wrap bg-gradient-hack-background">
+    <div className="w-full min-h-screen -mt-28 lg:-mt-36 flex flex-row flex-wrap bg-gradient-hack-background2 lg:bg-gradient-hack-background">
       <div className="w-full  lg:w-1/2  p-[50px] pt-36 lg:pt-80 lg:pb-20">
         <h3 className="text-4xl text-primary font-semibold">
           CONTACT US. LET&apos;S GET YOUR PROJECT STARTED

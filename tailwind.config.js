@@ -19,6 +19,7 @@ module.exports = {
       },
       backgroundImage: {
         'gradient-hack-background': 'linear-gradient(90deg,#e5f7fb 0%,#e5f7fb 50%,#00768F 50%,#00768F 100%)',
+        'gradient-hack-background2': 'linear-gradient(180deg,#e5f7fb 0%,#e5f7fb 50%,#00768F 50%,#00768F 100%)',
         'footer-background': 'url("assets/png/footer_background.png")',
         'card-background': 'url("assets/png/box-default.png")',
         'about-background': 'url("assets/png/about-bg.png")',
