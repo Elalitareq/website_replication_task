@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const InnovateSection = () => {
   return (
-    <section className=" w-full py-8 relative bg-light">
+    <section className=" w-full relative bg-light">
         <div className="relative mx-auto max-w-[1500px] ">
 
       <Image

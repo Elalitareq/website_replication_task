@@ -15,7 +15,7 @@ const routes = [
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-footer-background px-4 lg:px-[50px] pt-12 pb-5 flex flex-wrap items-center text-white bg-cover ">
+    <footer className="w-full bg-footer-background px-4 lg:px-[50px] pt-12 pb-5 flex flex-wrap items-center lg:items-start text-white bg-cover ">
       <div className="w-full md:w-1/4 mb-6 md:mb-0 pr-4">
         {" "}
         <Image src={whiteLogo} alt="acksession logo"width={220} height={70}   />

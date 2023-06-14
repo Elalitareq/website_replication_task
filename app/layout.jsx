@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       
       <body className={saira.className}>
         <Header/>
-        <main className={`min-h-screen overflow-hidden `}>{children}</main>
+        <main className='min-h-screen pt-28 lg:pt-36 overflow-hidden '>{children}</main>
         <Footer/>
       </body>
     </html>

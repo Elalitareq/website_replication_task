@@ -35,6 +35,9 @@ const Header = () => {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
   };
+  const closeNav = () => {
+    setIsNavOpen(false);
+  };
 
   return (
     <header
@@ -74,6 +77,7 @@ const Header = () => {
         >
           {routes.map((route, index) => (
             <CustomLink
+            closeNav={closeNav}
               path={route.path}
               label={route.label}
               pathname={pathname}
