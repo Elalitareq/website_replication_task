@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import React from 'react'
 import { motion } from "framer-motion";
@@ -56,7 +57,7 @@ const HeroSection = () => {
           variants={cloudAnimation}
           className="absolute bottom-0 right-0 z-20 w-[60%] lg:w-auto"
         >
-          <Image src={cloud} alt="hero cloud" width={"60%"} height={"auto"} />
+          <Image src={cloud} alt="hero cloud" width={"60%"} height={"auto"} priority/>
         </motion.div>
         <motion.div
           initial="initial"
@@ -64,7 +65,7 @@ const HeroSection = () => {
           variants={rocketAnimation}
           className="absolute bottom-0 right-0 z-10  w-[60%] lg:w-auto"
         >
-          <Image src={rocket} alt="hero rocket" width={"60%"} height={"auto"} />
+          <Image src={rocket} alt="hero rocket" width={"60%"} height={"auto"} priority />
         </motion.div>
         <motion.div
           initial="initial"
@@ -77,6 +78,7 @@ const HeroSection = () => {
             alt="hero background"
             width={"60%"}
             height={"auto"}
+            priority
           />
         </motion.div>
       </section>
