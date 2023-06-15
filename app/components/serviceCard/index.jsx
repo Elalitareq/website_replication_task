@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import FadeAnimator from '../fadeAnimator'
+import Link from 'next/link'
 
-const ServiceCard = ({card}) => {
+const ServiceCard = ({card,index}) => {
   return (
     <FadeAnimator>
 
@@ -21,17 +22,17 @@ const ServiceCard = ({card}) => {
       </div>
 
       <div className="flex-grow  flex flex-col justify-between text-center lg:text-transparent lg:group-hover:text-white  transition-colors duration-300">
-        <p className="card-text mt-2 ">
-          {card.text}
+        <p className="card-text mt-2 max-h-[150px] overflow-hidden text-ellipsis">
+          {card.description}
         </p>
 
         <div className="text-center ">
-          <a
-            href={card.path}
+          <Link
+            href={`/services/${index}`}
             className="bg-secondary lg:bg-transparent px-3 py-2  rounded border lg:border-transparent lg:group-hover:bg-secondary w-full hover:border-white block hover:shadow-[rgb(0,118,143)_0_0_2px] transition-colors duration-300"
           >
             Read more
-          </a>
+          </Link>
         </div>
       </div>
     </div>

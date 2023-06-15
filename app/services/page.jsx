@@ -61,7 +61,9 @@ const myArray = [
     image:dgitalMarketing
   },
 ];
-const Services = () => {
+const Services = async() => {
+  const data = await fetch("http://localhost:3000/api/services")
+  const services =await data.json()
   return (
     <>
       <section className="bg-light my-8  p-8 lg:p-16">
@@ -71,7 +73,7 @@ const Services = () => {
         <p className={` text-lg ${raleway.className}`}>
           We can help unlock value in the ‘new normal’ business environment
           amidst a backdrop of uncertainty caused by today’s unprecedented
-          times. Whether you are looking to fill-in ad-hoc or grow a robust
+          times. Whether you are looking to fill-in ad-hoc or grow a srobust
           tech-based talent pool – we can help you unlock value and increase
           productivity per development cycle. We partner to understand your
           long-term vision and architect the right solution with our technical
@@ -79,11 +81,11 @@ const Services = () => {
         </p>
       </section>
       <section className="p-8 lg:p-16 lg:pb-8 flex justify-center sm:justify-between flex-wrap">
-        {myArray.map((card, index) => {
+        {services.map((card, index) => {
           return (
             <div  key={index}  className={`min-w-[25%] mb-8 `}>
 
-              <ServiceCard card={card}/>
+              <ServiceCard card={card} index={index}/>
             </div>
           );
         })}

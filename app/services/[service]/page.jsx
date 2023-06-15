@@ -4,9 +4,10 @@ import Link from "next/link";
 import React from "react";
 import { serviceData } from "./data";
 
-const Service = ({ params }) => {
-  const { title, description, sub, services, image } =
-    serviceData[params.service];
+const Service =async ({ params }) => {
+  const data = await fetch("https://website-replication-task.vercel.app/api/services")
+  const servicesArray =await data.json()
+  const { title, description, sub, services, image } =servicesArray[params.service]
   return (
     <div className="">
       <div className="flex flex-wrap flex-row px-8 lg:px-[50px]">
@@ -45,6 +46,8 @@ const Service = ({ params }) => {
           <Image
             src={image}
             alt={title}
+            width={400}
+            height={400}
             className="m-auto w-full  lg:w-[70%]"
           />
         </div>
