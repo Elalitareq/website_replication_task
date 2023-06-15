@@ -1,5 +1,6 @@
 import React from "react";
 import { raleway } from "../font";
+import Link from "next/link";
 
 const Contact = () => {
   return (
@@ -69,10 +70,10 @@ const Contact = () => {
         <h3 className={`text-3xl text-secondary font-semibold `}>
         INTERESTED IN JOINING THE SCOPIC FAMILY?
         </h3>
-        <p className="text-xl mt-4">
+        <p className="text-xl mt-4 mb-6">
         Head on over to our careers page and show us what you&apos;re made of!
         </p>
-        <button className="text-xl px-4 py-2 bg-secondary text-white mt-4 rounded">Check Careers</button>
+        <Link href="/careers" className="text-xl px-4 py-2 bg-secondary text-white mt-4 rounded">Check Careers</Link>
       </div>
               </div>
   );
