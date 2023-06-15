@@ -80,7 +80,7 @@ const ServicesHomeSection = () => {
 
         </Link>
     </div>
-    <div className=" overflow-x-scroll scrolling-touch w-full lg:w-[60%] pt-[50px] pl-6">
+    <div className=" overflow-x-scroll scrolling-touch w-full lg:w-[60%] pt-[50px] ">
       <div className="flex">
         {cards.map((card, index) => (
         <div  key={index} className='min-w-[340px]'>
