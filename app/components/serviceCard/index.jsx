@@ -4,7 +4,7 @@ import React from 'react'
 const ServiceCard = ({card}) => {
   return (
     <div
-    class={`mb-8 w-[275px] h-[485px] rounded border-[#20D5FF] border bg-[#00ADEA] text-white group hover:bg-primary transition-colors duration-300 p-4 relative mx-auto`}
+    class={`mb-8 w-[275px] h-[485px] rounded border-[#20D5FF] border bg-[#00ADEA] text-white group hover:bg-primary transition-colors duration-300  p-8 relative mx-auto`}
   >
     <span className="absolute h-[165px] w-[134px] bg-card-background bg-cover right-0 top-0 z-10">
     </span>

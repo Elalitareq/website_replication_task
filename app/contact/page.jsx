@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="bg-light">
     <div className="w-full min-h-screen -mt-28 lg:-mt-36 flex flex-row flex-wrap ">
-      <div className="w-full h-1/2 lg:h-auto bg-light lg:w-1/2  p-4 lg:p-[50px] pt-28 lg:pt-80 pb-30">
+      <div className="w-full h-1/2 lg:h-auto bg-light lg:w-1/2   p-8 lg:p-[50px] pt-28 lg:pt-80 pb-30">
         <h3 className="text-3xl lg:text-4xl text-primary font-semibold">
           CONTACT US. LET&apos;S GET YOUR PROJECT STARTED
         </h3>
@@ -24,7 +24,7 @@ const Contact = () => {
           We&apos;re looking forward to hearing from you
         </h3>
       </div>
-      <div className="w-full h-1/2 lg:h-auto lg:w-1/2  bg-secondary p-4 lg:p-[50px] pt-28 lg:pt-80 pb-30">
+      <div className="w-full h-1/2 lg:h-auto lg:w-1/2  bg-secondary  p-8 lg:p-[50px] pt-28 lg:pt-80 pb-30">
         <form className="w-full text-white text-lg">
           <div className=" w-full flex flex-wrap justify-between">
             <label className="w-full lg:w-[48%] inline-block">

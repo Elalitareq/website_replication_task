@@ -44,7 +44,7 @@ const Careers = () => {
         </div>
       </section>
       <section
-        className={`max-w-[1350px] m-auto p-4 lg:p-16  leading-loose ${raleway.className}`}
+        className={`max-w-[1350px] m-auto  p-8 lg:p-16  leading-loose ${raleway.className}`}
       >
         <div className="flex flex-wrap mb-16 ">
           <h2 className="w-full lg:w-[33%]  text-left text-primary text-2xl  font-light mb-6">
@@ -87,12 +87,12 @@ const Careers = () => {
         </div>
       </section>
       <section className="w-full bg-secondary text-white text-2xl">
-        <h2 className="max-w-[1350px] m-auto  p-4 lg:px-16">
+        <h2 className="max-w-[1350px] m-auto   p-8 lg:px-16">
           YOU DECIDE WHAT COMES NEXT. CHOOSE YOUR CAREER PATH
         </h2>
       </section>
       <section
-        className={`max-w-[1350px] m-auto  p-4 lg:p-16  leading-loose ${raleway.className}`}
+        className={`max-w-[1350px] m-auto   p-8 lg:p-16  leading-loose ${raleway.className}`}
       >
         <h3 className="text-xl mb-8">
           We want to offer our team members personalized opportunities for
@@ -132,7 +132,7 @@ const Careers = () => {
           ))}
         </div>
       </section>
-      <section className="w-full text-left lg:text-center bg-light p-4 lg:p-16 tracking-wide">
+      <section className="w-full text-left lg:text-center bg-light  p-8 lg:p-16 tracking-wide">
         <h2 className="text-4xl  font-semibold text-primary max-w-[1350px] m-auto ">
           DIDN&apos;T FIND AN OPENING THAT SUITS YOUR AREA OF EXPERTISE?
         </h2>

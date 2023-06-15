@@ -64,7 +64,7 @@ const About = () => {
           highest priority.
         </p>
       </section>
-      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] bg-light m-auto p-4 lg:p-8">
+      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] bg-light m-auto  p-8 lg:p-8">
         <h2 className="text-4xl text-primary font-bold mb-4">WHAT WE DO</h2>
         <p className={`text-xl mt-6 ${raleway.className}`}>
           We are a US based software company. We build solutions tailored to the
@@ -77,7 +77,7 @@ const About = () => {
           process.
         </p>
       </section>
-      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] bg-light m-auto p-4 lg:p-8">
+      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] bg-light m-auto  p-8 lg:p-8">
         <h2 className="text-4xl text-primary font-bold mb-4">OUR VALUES</h2>
         <p className={`text-xl mt-6 ${raleway.className}`}>
           Our values shape the way we work with our clients and our employees.
@@ -87,7 +87,7 @@ const About = () => {
           solutions.
         </p>
       </section>
-      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] m-auto p-4 lg:p-8">
+      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] m-auto  p-8 lg:p-8">
         <h2 className="text-4xl text-primary font-bold mb-4">
           SHAPING A VISION, DELIVERING SOFTWARE, CREATING WORLD CLASS
           EXPERIENCES
@@ -97,7 +97,7 @@ const About = () => {
           services across different disciplines and industries
         </p>
       </section>
-      <section className="mt-4 w-full lg:w-[80%] max-w-[1350px] m-auto p-4 lg:p-8 ">
+      <section className="mt-4 w-full lg:w-[80%] max-w-[1350px] m-auto  p-8 lg:p-8 ">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/4  flex lg:block   ">
             <div className="relative">
@@ -206,15 +206,15 @@ const About = () => {
         </div>
       </section>
       <section className="w-full bg-secondary text-center ">
-        <h2 className="text-4xl  text-white w-full lg:w-[80%] max-w-[1350px] m-auto p-4 lg:p-8">OUR TEAM</h2>
-        <p className="text-xl text-white max-w-[1350px] w-full lg:w-[80%] m-auto mt-4 p-4 lg:p-8">
+        <h2 className="text-4xl  text-white w-full lg:w-[80%] max-w-[1350px] m-auto  p-8 lg:p-8">OUR TEAM</h2>
+        <p className="text-xl text-white max-w-[1350px] w-full lg:w-[80%] m-auto mt-4  p-8 lg:p-8">
           On the clock, we’re technology experts and leaders that bring energy,
           passion, and knowledge to every project. Off the clock, we’re an
           eclectic bunch of foodies, music buffs, artists, sports fanatics,
           karaoke pros, and outdoor enthusiasts.
         </p>
       </section>
-      <section className="w-full p-4 pb-8 lg:p-16 text-center">
+      <section className="w-full  p-8 pb-8 lg:p-16 text-center">
         <h2 className="text-4xl font-bold  text-primary max-w-[1350px] m-auto ">
           Interested in joining the Acksession family?
         </h2>
@@ -238,7 +238,7 @@ const About = () => {
         <div
           className={`lg:absolute inset-0 w-full h-full flex justify-center items-center ${raleway.className}`}
         >
-          <div className=" bg-white z-30 p-4 lg:p-8 w-full lg:w-1/2 h-[40%] flex flex-col justify-between">
+          <div className=" bg-white z-30  p-8 lg:p-8 w-full lg:w-1/2 h-[40%] flex flex-col justify-between">
             <div>
               <h2 className="text-4xl text-primary ">OUR LOCATIONS</h2>
               <p className={`text-xl text-black mt-3  ${raleway.className}`}>
@@ -284,7 +284,7 @@ const About = () => {
           className="w-full lg:w-[30%] h-auto lg:absolute bottom-0 right-0 "
         />
       </section>
-      <section className="w-full p-4 pb-8 lg:p-16 ">
+      <section className="w-full  p-8 pb-8 lg:p-16 ">
         <h2 className="text-primary text-center my-4 text-4xl font-semibold">
           WHY WORK WITH US
         </h2>

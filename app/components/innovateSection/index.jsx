@@ -15,7 +15,7 @@ const InnovateSection = () => {
         width={850}
         height={"auto"}
       />
-      <div className="absolute bg-white top-[40%] lg:top-[280px] left-[10%] lg:left-auto right-[10%] lg:right-0 p-4 lg:p-12 rounded w-auto  lg:w-[770px] pb-6 z-30">
+      <div className="absolute bg-white top-[40%] lg:top-[280px] left-[10%] lg:left-auto right-[10%] lg:right-0  p-8 lg:p-12 rounded w-auto  lg:w-[770px] pb-6 z-30">
         <h3 className="text-[5vw] lg:text-4xl font-semibold mb-6 text-primary">COME INNOVATE WITH US!</h3>
 
         <p className={`pb-3 text-[3vw] lg:text-xl  mb-6 ${raleway.className}`}>

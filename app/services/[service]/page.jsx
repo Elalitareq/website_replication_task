@@ -59,7 +59,7 @@ const Service = ({ params }) => {
         </p>
         <div className="flex flex-row pt-16 flex-wrap">
           {services.map((service, index) => (
-            <div className=" w-full lg:w-1/2 flex flex-row flex-wrap my-4" key={index}>
+            <div className=" w-full lg:w-1/2 flex flex-row flex-wrap my-4 lg:my-auto" key={index}>
               <div className="w-full lg:w-1/4 my-2 ">
                 <Image
                   src={service.image}
