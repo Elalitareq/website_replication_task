@@ -79,7 +79,7 @@ const Job = ({ params }) => {
   return (
     <>
       <section
-        className={`max-w-[1350px] m-auto py-[50px] px-4 lg:mt-32 ${raleway.className}`}
+        className={`max-w-[1350px] m-auto py-[50px] px-4 ${raleway.className}`}
       >
         <Link href="/careers" className={`mb-12 `}>
           <span className="font-bold text-secondary inline ">
