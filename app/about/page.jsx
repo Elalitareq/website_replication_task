@@ -64,7 +64,7 @@ const About = () => {
           highest priority.
         </p>
       </section>
-      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] bg-light m-auto p-8">
+      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] bg-light m-auto p-4 lg:p-8">
         <h2 className="text-4xl text-primary font-bold mb-4">WHAT WE DO</h2>
         <p className={`text-xl mt-6 ${raleway.className}`}>
           We are a US based software company. We build solutions tailored to the
@@ -77,7 +77,7 @@ const About = () => {
           process.
         </p>
       </section>
-      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] bg-light m-auto p-8">
+      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] bg-light m-auto p-4 lg:p-8">
         <h2 className="text-4xl text-primary font-bold mb-4">OUR VALUES</h2>
         <p className={`text-xl mt-6 ${raleway.className}`}>
           Our values shape the way we work with our clients and our employees.
@@ -87,7 +87,7 @@ const About = () => {
           solutions.
         </p>
       </section>
-      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] m-auto p-8">
+      <section className="mt-10 w-full lg:w-[80%] max-w-[1350px] m-auto p-4 lg:p-8">
         <h2 className="text-4xl text-primary font-bold mb-4">
           SHAPING A VISION, DELIVERING SOFTWARE, CREATING WORLD CLASS
           EXPERIENCES
@@ -112,7 +112,7 @@ const About = () => {
               />
             </div>
 
-            <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto pl-3 lg:pl-auto about-number-img-first-desc">
+            <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto  about-number-img-first-desc">
               <h4 className="text-2xl font-medium lg:pr-12 text-primary mt-6">
                 Project Kickoff
               </h4>
@@ -138,7 +138,7 @@ const About = () => {
                 className="h-[70px] w-auto bg-light px-2 py-2"
               />
             </div>
-            <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto pl-3 lg:pl-auto">
+            <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto ">
               <h4 className="text-2xl font-medium lg:px-6 text-primary mt-6">
                 Ideation and Evaluation
               </h4>
@@ -164,7 +164,7 @@ const About = () => {
                 className="h-[70px] w-auto bg-light px-2 py-2"
               />
             </div>
-            <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto pl-3 lg:pl-auto">
+            <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto ">
               <h4 className="text-2xl font-medium lg:px-6 text-primary mt-6">
                 Design Process
               </h4>
@@ -190,7 +190,7 @@ const About = () => {
                 className="h-[70px] w-auto bg-light px-2 py-2"
               />
             </div>
-            <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto pl-3 lg:pl-auto ">
+            <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto ">
               <h4 className="text-2xl font-medium lg:pl-12 text-primary mt-6">
                 Development Process
               </h4>
@@ -205,9 +205,9 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className="w-full bg-secondary text-center p-4 lg:p-8">
-        <h2 className="text-4xl  text-white max-w-[1350px] m-auto">OUR TEAM</h2>
-        <p className="text-xl text-white max-w-[1350px] m-auto mt-4">
+      <section className="w-full bg-secondary text-center ">
+        <h2 className="text-4xl  text-white w-full lg:w-[80%] max-w-[1350px] m-auto p-4 lg:p-8">OUR TEAM</h2>
+        <p className="text-xl text-white max-w-[1350px] w-full lg:w-[80%] m-auto mt-4 p-4 lg:p-8">
           On the clock, we’re technology experts and leaders that bring energy,
           passion, and knowledge to every project. Off the clock, we’re an
           eclectic bunch of foodies, music buffs, artists, sports fanatics,
@@ -238,7 +238,7 @@ const About = () => {
         <div
           className={`lg:absolute inset-0 w-full h-full flex justify-center items-center ${raleway.className}`}
         >
-          <div className=" bg-white z-30 p-8 w-full lg:w-1/2 h-[40%] flex flex-col justify-between">
+          <div className=" bg-white z-30 p-4 lg:p-8 w-full lg:w-1/2 h-[40%] flex flex-col justify-between">
             <div>
               <h2 className="text-4xl text-primary ">OUR LOCATIONS</h2>
               <p className={`text-xl text-black mt-3  ${raleway.className}`}>
@@ -294,7 +294,7 @@ const About = () => {
           return (
                       <div
                         key={index}
-                        className={`w-full lg:w-1/2 p-3 lg:p-8 flex flex-wrap  h-auto ${saira.className}`}
+                        className={`w-full lg:w-1/2 py-4 lg:p-8 flex flex-wrap  h-auto ${saira.className}`}
                       >
                         <div className="w-full lg:w-[150px]">
 
