@@ -84,7 +84,7 @@ const ServicesHomeSection = () => {
       <div className="flex">
     
         {cards.map((card, index) => (
-        <div  key={index} className='min-w-full lg:w-auto '>
+        <div  key={index} className='min-w-full lg:min-w-[300px] lg:w-auto '>
 
           <ServiceCard card={card} />
         </div>
