@@ -23,6 +23,7 @@ module.exports = {
         'footer-background': 'url("assets/png/footer_background.png")',
         'card-background': 'url("assets/png/box-default.png")',
         'about-background': 'url("assets/png/about-bg.png")',
+        'careers-background': 'url("assets/png/careers-header-background.png")',
         'services-background': 'url("assets/png/services_background.png")',
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

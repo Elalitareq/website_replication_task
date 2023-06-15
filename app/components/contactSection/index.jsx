@@ -6,8 +6,8 @@ import Image from 'next/image'
 
 const ContactSection = () => {
   return (
-    <section className='w-full bg-primary text-white px-[50px] py-[80px] flex flex-wrap relative'>
-        <div className='w-full lg:w-[33%]'>
+    <section className='w-full bg-primary text-white  px-4 lg:px-[50px] py-[80px] flex flex-wrap relative'>
+        <div className='w-full lg:w-[33%] mb-6 lg:mb-auto'>
 
         <h2 className='text-4xl text-secondary font-semibold'>
         HOW CAN WE HELP?
@@ -16,11 +16,11 @@ const ContactSection = () => {
         We&apos;d love to hear from you!
         </p>
         </div>
-        <div className='w-full lg:w-[33%] flex flex-row items-center justify-center'>
+        <div className='w-full lg:w-[33%] flex flex-row items-center justify-start lg:justify-center'>
             <Link href="/contact" className='bg-secondary text-white px-4 py-3 rounded'>Contact Us</Link>
 
         </div>
-    <Image src={letterBox} alt="letter box" width={"30%"} height={"auto"} className='absolute -bottom-2 right-0'/>
+    <Image src={letterBox} alt="letter box" width={"30%"} height={"auto"} className='absolute -bottom-4 lg:-bottom-8 right-0 w-1/2 lg:w-[350px]'/>
     </section>
   )
 }

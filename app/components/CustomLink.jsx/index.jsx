@@ -9,7 +9,7 @@ const CustomLink = ({ path, pathname, label ,closeNav,textColored,isNavOpen}) =>
   }else{
 isActive=path===pathname
   }
-  const isAbout=(pathname==="/about"||pathname==="/contact")
+  const isAbout=(pathname==="/about"||pathname==="/contact"||pathname==="/careers")
   return (
     <Link href={path}
     onClick={()=>closeNav()}

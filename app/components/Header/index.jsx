@@ -47,7 +47,7 @@ const Header = () => {
     >
       <div className="lg:w-full px-4 lg:px-[50px] py-4 lg:py-4 flex items-center justify-between relative">
         <Image
-          src={isNavOpen?logo:pathname==="/about"&&scrollPosition<50?whiteLogo:logo}
+          src={isNavOpen?logo:(pathname==="/about"||pathname==="/careers")&&scrollPosition<50?whiteLogo:logo}
           alt="acksession logo"
           width={285}
           height={"auto"}
@@ -56,7 +56,7 @@ const Header = () => {
 
         <button
           onClick={toggleNav}
-          className={`nav-icon lg:hidden ${isNavOpen ? "open" : ""} ${(pathname==="/about"||pathname==="/contact")&&scrollPosition<50?"scary":""}`}
+          className={`nav-icon lg:hidden ${isNavOpen ? "open" : ""} ${(pathname==="/about"||pathname==="/contact"||pathname==="/careers")&&scrollPosition<50?"scary":""}`}
           type="button"
         >
           <span></span>
