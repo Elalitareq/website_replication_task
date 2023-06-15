@@ -23,6 +23,22 @@ const HeroSection = () => {
           },
         },
       };
+    const textAnimation = {
+        initial: {
+          opacity: 0,
+          y: -50,
+          x: -50,
+        },
+        animate: {
+          opacity: 1,
+          y: 0,
+          x: 0,
+          transition: {
+            duration: 1,
+            ease: "easeInOut",
+          },
+        },
+      };
     
       const rocketAnimation = {
         initial: {
@@ -40,7 +56,11 @@ const HeroSection = () => {
       };
   return (
     <section className=" relative min-h-[calc(100vh-7rem)] lg:min-h-[calc(100vh-9rem)] overflow-hidden ">
-        <div className="w-full lg:w-1/2  pt-12 lg:pt-[12%] text-left px-[10%] lg:pr-auto">
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={textAnimation}
+        className="w-full lg:w-1/2  py-12 lg:py-[12%] text-left px-[10%] lg:pr-auto">
           <h2 className="text-4xl text-primary font-semibold mb-6">
             UNLOCKING LIMITATIONS
           </h2>
@@ -49,7 +69,7 @@ const HeroSection = () => {
             recruiting and looking for individuals that are ready to grow with
             us. Let&apos;s bring the world closer together!
           </span>
-        </div>
+        </motion.div>
 
         <motion.div
           initial="initial"

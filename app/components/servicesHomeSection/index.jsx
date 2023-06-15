@@ -64,7 +64,8 @@ const cards=[
 const ServicesHomeSection = () => {
   return (
     <section className="bg-services-background bg-cover flex flex-wrap ">
-    <div className="w-full lg:w-[33%]  p-8 lg:p-16">
+      
+    <div className="w-full lg:w-[33%]  p-8 py-16 lg:p-16">
       <h2 className="text-4xl text-primary font-semibold  mb-6">
         YOUR TECH CONSULTING PARTNER
       </h2>
@@ -80,7 +81,7 @@ const ServicesHomeSection = () => {
 
         </Link>
     </div>
-    <div className=" overflow-x-scroll scrolling-touch w-full lg:w-[60%] pt-[50px] ">
+    <div className=" overflow-x-scroll scrolling-touch w-full lg:w-[60%] py-12 ">
       <div className="flex">
     
         {cards.map((card, index) => (

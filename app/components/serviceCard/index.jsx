@@ -1,8 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
+import FadeAnimator from '../fadeAnimator'
 
 const ServiceCard = ({card}) => {
   return (
+    <FadeAnimator>
+
     <div
     className={`mb-8 w-[275px] h-[500px] rounded border-[#20D5FF] border bg-primary lg:bg-[#00ADEA] text-white group lg:hover:bg-primary transition-colors duration-300  py-8 px-4 relative mx-auto`}
   >
@@ -33,6 +36,7 @@ const ServiceCard = ({card}) => {
       </div>
     </div>
   </div>
+        </FadeAnimator>
   )
 }
 

@@ -6,7 +6,8 @@ import Link from "next/link";
 
 const InnovateSection = () => {
   return (
-    <section className=" w-full relative bg-light">
+
+    <section className=" w-full relative bg-light ">
         <div className="relative mx-auto max-w-[1500px] ">
 
       <Image
@@ -15,10 +16,10 @@ const InnovateSection = () => {
         width={850}
         height={"auto"}
       />
-      <div className="absolute bg-white top-[40%] lg:top-[280px] left-[10%] lg:left-auto right-[10%] lg:right-0  p-8 lg:p-12 rounded w-auto  lg:w-[770px] pb-6 z-30">
+      <div className="lg:absolute bg-white top-[40%] lg:top-[280px]  lg:left-auto  lg:right-0  p-8 py-16  lg:p-12  rounded w-auto  lg:w-[770px] pb-6 z-30">
         <h3 className="text-[5vw] lg:text-4xl font-semibold mb-6 text-primary">COME INNOVATE WITH US!</h3>
 
-        <p className={`pb-3 text-[3vw] lg:text-xl  mb-6 ${raleway.className}`}>
+        <p className={`pb-3 text-lg lg:text-xl  mb-6 ${raleway.className}`}>
           We are building a team of critical thinkers, lifelong learners and
           adaptive mindsets.
         </p>
