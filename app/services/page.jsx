@@ -64,7 +64,7 @@ const myArray = [
 const Services = () => {
   return (
     <>
-      <section className="bg-light mt-10 p-4 lg:p-16">
+      <section className="bg-light my-10 p-4 lg:p-16">
         <h1 className="text-4xl font-bold text-primary tracking-wide mb-6">
           SUSTAINABLE TECHNOLOGY SERVICES CUSTOMIZED FOR YOUR ORGANIZATION
         </h1>
@@ -81,7 +81,7 @@ const Services = () => {
       <section className="p-[50px] flex justify-center sm:justify-between flex-wrap">
         {myArray.map((card, index) => {
           return (
-            <div  key={index}  className=" min-w-[25%]">
+            <div  key={index}  className={`min-w-[25%] `}>
 
               <ServiceCard card={card}/>
             </div>

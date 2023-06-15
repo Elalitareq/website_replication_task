@@ -39,7 +39,7 @@ const HeroSection = () => {
       };
   return (
     <section className=" relative min-h-[calc(100vh-7rem)] lg:min-h-[calc(100vh-9rem)] ">
-        <div className="w-full lg:w-1/2   pt-[12%] text-left px-[10%] lg:pr-auto">
+        <div className="w-full lg:w-1/2  pt-12 lg:pt-[12%] text-left px-[10%] lg:pr-auto">
           <h2 className="text-4xl text-primary font-semibold mb-6">
             UNLOCKING LIMITATIONS
           </h2>

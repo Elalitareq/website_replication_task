@@ -4,7 +4,7 @@ import React from 'react'
 const ServiceCard = ({card}) => {
   return (
     <div
-    class="mb-8 w-[275px] h-[485px] rounded border-[#20D5FF] border bg-[#00ADEA] text-white group hover:bg-primary transition-colors duration-300 p-4 relative"
+    class={`mb-8 w-[275px] h-[485px] rounded border-[#20D5FF] border bg-[#00ADEA] text-white group hover:bg-primary transition-colors duration-300 p-4 relative mx-auto`}
   >
     <span className="absolute h-[165px] w-[134px] bg-card-background bg-cover right-0 top-0 z-10">
     </span>
@@ -17,12 +17,12 @@ const ServiceCard = ({card}) => {
         </h4>
       </div>
 
-      <div class="flex-grow  flex flex-col justify-between text-transparent group-hover:text-white  transition-colors duration-300">
-        <p class="card-text ">
+      <div class="flex-grow  flex flex-col justify-between text-center text-transparent group-hover:text-white  transition-colors duration-300">
+        <p class="card-text mt-4 ">
           {card.text}
         </p>
 
-        <div class="text-center">
+        <div class="text-center ">
           <a
             href={card.path}
             class="bg-transparent px-3 py-2  rounded border border-transparent group-hover:bg-secondary w-full hover:border-white block hover:shadow-[rgb(0,118,143)_0_0_2px] transition-colors duration-300"
