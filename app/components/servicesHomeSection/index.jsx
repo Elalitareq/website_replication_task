@@ -82,8 +82,9 @@ const ServicesHomeSection = () => {
     </div>
     <div className=" overflow-x-scroll scrolling-touch w-full lg:w-[60%] pt-[50px] ">
       <div className="flex">
+    
         {cards.map((card, index) => (
-        <div  key={index} className='min-w-[340px]'>
+        <div  key={index} className='min-w-full lg:w-auto '>
 
           <ServiceCard card={card} />
         </div>
