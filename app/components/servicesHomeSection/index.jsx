@@ -64,7 +64,7 @@ const cards=[
 const ServicesHomeSection = () => {
   return (
     <section className="bg-services-background bg-cover flex flex-wrap ">
-    <div className="w-full lg:w-[33%] p-[50px]">
+    <div className="w-full lg:w-[33%] p-4 lg:p-16">
       <h2 className="text-4xl text-primary font-semibold  mb-6">
         YOUR TECH CONSULTING PARTNER
       </h2>

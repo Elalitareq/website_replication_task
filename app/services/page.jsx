@@ -64,7 +64,7 @@ const myArray = [
 const Services = () => {
   return (
     <>
-      <section className="bg-light px-[50px] mt-10 py-16">
+      <section className="bg-light mt-10 p-4 lg:p-16">
         <h1 className="text-4xl font-bold text-primary tracking-wide mb-6">
           SUSTAINABLE TECHNOLOGY SERVICES CUSTOMIZED FOR YOUR ORGANIZATION
         </h1>

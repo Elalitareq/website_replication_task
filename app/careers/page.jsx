@@ -47,11 +47,11 @@ const Careers = () => {
         className={`max-w-[1350px] m-auto p-4 lg:p-16  leading-loose ${raleway.className}`}
       >
         <div className="flex flex-wrap mb-16 ">
-          <h2 className="w-full lg:w-[33%] text-center lg:text-left text-primary text-2xl  font-light mb-6">
+          <h2 className="w-full lg:w-[33%]  text-left text-primary text-2xl  font-light mb-6">
             WORKING AT ACKSESSION MEANS FLEXIBILITY, TRUST AND MEANINGFUL
             CHOICES
           </h2>
-          <div className="w-full lg:w-[66%] px-2 lg:px-8 text-xl ">
+          <div className="w-full lg:w-[66%] lg:px-8 text-xl ">
             <p className="mb-4">
               Working at Acksession means being a part of a community that
               values growth, mutual trust and respect.
@@ -68,11 +68,11 @@ const Careers = () => {
           </div>
         </div>
         <div className="flex flex-wrap flex-row">
-          <h2 className="w-full lg:w-[33%] text-primary text-2xl font-light text-center lg:text-left mb-6">
+          <h2 className="w-full lg:w-[33%] text-primary text-2xl font-light text-left mb-6">
             {" "}
             LEARN ABOUT OUR VALUES
           </h2>
-          <div className="w-full lg:w-[66%] px-2 lg:px-8 text-xl ">
+          <div className="w-full lg:w-[66%] lg:px-8 text-xl ">
             <p className="mb-4">
               We’ve taken the time to condense our values into seven key points.
               They shape the way we work with clients and with each other, and
