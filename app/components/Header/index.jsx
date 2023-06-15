@@ -56,7 +56,7 @@ const Header = () => {
 
         <button
           onClick={toggleNav}
-          className={`nav-icon lg:hidden ${isNavOpen ? "open" : ""} ${(pathname==="/about"||pathname==="/contact"||pathname==="/careers")&&scrollPosition<50?"scary":""}`}
+          className={`nav-icon lg:hidden ${isNavOpen ? "open" : ""} ${(pathname==="/about"||pathname==="/careers")&&scrollPosition<50?"scary":""}`}
           type="button"
         >
           <span></span>

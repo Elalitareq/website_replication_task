@@ -79,7 +79,7 @@ const Job = ({ params }) => {
   return (
     <>
       <section
-        className={`max-w-[1350px] m-auto py-[50px] mt-32 ${raleway.className}`}
+        className={`max-w-[1350px] m-auto py-[50px] px-4 lg:mt-32 ${raleway.className}`}
       >
         <Link href="/careers" className={`mb-12 `}>
           <span className="font-bold text-secondary inline ">
@@ -113,7 +113,7 @@ const Job = ({ params }) => {
         </p>
       </section>
       <section className="w-full bg-light py-10">
-        <div className="max-w-[1350px] m-auto">
+        <div className="max-w-[1350px] m-auto px-4">
           <h2 className="text-4xl text-primary my-6  font-bold">
             JOB DESCRIPTION
           </h2>
@@ -123,7 +123,7 @@ const Job = ({ params }) => {
           <h3 className="font-bold text-xl pb-4">Responsibilities</h3>
           <ul className="list-inside px-4 mb-6">
             {responsibilities.map((responsibility, index) => (
-              <li className=" list-disc " key={index}>
+              <li className=" list-disc my-2 " key={index}>
                 {responsibility}
               </li>
             ))}
@@ -131,7 +131,7 @@ const Job = ({ params }) => {
           <h3 className="font-bold text-xl pb-4">Qualifications</h3>
           <ul className="list-inside px-4">
             {qualifications.map((qualification, index) => (
-              <li className=" list-disc " key={index}>
+              <li className=" list-disc my-2" key={index}>
                 {qualification}
               </li>
             ))}

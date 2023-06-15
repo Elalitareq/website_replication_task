@@ -51,7 +51,7 @@ const Careers = () => {
             WORKING AT ACKSESSION MEANS FLEXIBILITY, TRUST AND MEANINGFUL
             CHOICES
           </h2>
-          <div className="w-full lg:w-[66%] px-8 text-xl ">
+          <div className="w-full lg:w-[66%] px-2 lg:px-8 text-xl ">
             <p className="mb-4">
               Working at Acksession means being a part of a community that
               values growth, mutual trust and respect.
@@ -72,7 +72,7 @@ const Careers = () => {
             {" "}
             LEARN ABOUT OUR VALUES
           </h2>
-          <div className="w-full lg:w-[66%] px-8 text-xl ">
+          <div className="w-full lg:w-[66%] px-2 lg:px-8 text-xl ">
             <p className="mb-4">
               We’ve taken the time to condense our values into seven key points.
               They shape the way we work with clients and with each other, and
@@ -92,21 +92,21 @@ const Careers = () => {
         </h2>
       </section>
       <section
-        className={`max-w-[1350px] m-auto py-12 px-4  leading-loose ${raleway.className}`}
+        className={`max-w-[1350px] m-auto py-12 px-2 lg:px-4  leading-loose ${raleway.className}`}
       >
         <h3 className="text-xl mb-8">
           We want to offer our team members personalized opportunities for
           growth, based on their level of experience. There is always room for
           development.
         </h3>
-        <div className="w-full flex justify-between mb-12">
+        <div className="w-full flex justify-between flex-wrap mb-12">
           <h4 className="font-semibold">
             {filteredJobs.length} Jobs are available
           </h4>
           <input
             type="text"
             placeholder="Search"
-            className="px-4 py-1 bg-light border border-gray-300 w-1/2 focus:outline-none rounded focus:shadow-[rgba(13,110,253,.25)_0_0_0_0.25rem]"
+            className="px-4 py-1 bg-light border border-gray-300 w-full lg:w-1/2 focus:outline-none rounded focus:shadow-[rgba(13,110,253,.25)_0_0_0_0.25rem]"
             value={searchTerm}
             onChange={handleSearch}
           />
@@ -124,7 +124,7 @@ const Careers = () => {
               </div>
               <Link
                 href={job.path}
-                className="px-3 py-1 rounded bg-primary text-white"
+                className="px-3 py-1 rounded bg-primary whitespace-nowrap text-white"
               >
                 View Job
               </Link>
@@ -132,15 +132,15 @@ const Careers = () => {
           ))}
         </div>
       </section>
-      <section className="w-full bg-light p-8 pb-12 tracking-wide">
-        <h2 className="text-4xl text-center font-semibold text-primary max-w-[1350px] m-auto ">
+      <section className="w-full text-left lg:text-center bg-light p-8 pb-12 tracking-wide">
+        <h2 className="text-4xl  font-semibold text-primary max-w-[1350px] m-auto ">
           DIDN&apos;T FIND AN OPENING THAT SUITS YOUR AREA OF EXPERTISE?
         </h2>
-        <p className={`text-center text-xl mt-4 ${raleway.className}`}>
+        <p className={` text-xl mt-4 ${raleway.className}`}>
           Introduce yourself! We are constantly on the lookout for savvy people
         </p>
         <p
-          className={`text-center text-xl mt-4 text-secondary ${raleway.className}`}
+          className={` text-xl mt-4 text-secondary ${raleway.className}`}
         >
           career@acksession.com
         </p>

@@ -26,7 +26,7 @@ const Contact = () => {
       <div className="w-full h-1/2 lg:h-auto lg:w-1/2  bg-secondary p-4 lg:p-[50px] pt-28 lg:pt-80 pb-30">
         <form className="w-full text-white text-lg">
           <div className=" w-full flex flex-wrap justify-between">
-            <label className="w-[48%] inline-block">
+            <label className="w-full lg:w-[48%] inline-block">
             First Name
             <input
               type="text"
@@ -35,7 +35,7 @@ const Contact = () => {
               className=" text- black w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-primary"
               />
               </label>
-            <label className="w-[48%] inline-block">
+            <label className="mt-8 lg:mt-auto w-full lg:w-[48%] inline-block">
             Last Name
             <input
               type="text"

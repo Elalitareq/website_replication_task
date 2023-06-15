@@ -49,7 +49,7 @@ const Service = ({ params }) => {
           />
         </div>
       </div>
-      <div className="bg-light lg:px-[50px] w-full pt-16 pb-24 px-[50px] relative">
+      <div className="bg-light px-4 lg:px-[50px] w-full pt-24 lg:pt-16 pb-24 relative">
         <span className="bg-[#00ADD2] text-white text-2xl  rounded px-4 py-2 -top-3 absolute">
           Need an advice? Talk to our experts
         </span>
@@ -57,10 +57,10 @@ const Service = ({ params }) => {
         <p className={`text-xl text-black mt-6 ${raleway.className}`}>
           {sub.description}
         </p>
-        <div className="flex flex-row pt-16">
+        <div className="flex flex-row pt-16 flex-wrap">
           {services.map((service, index) => (
-            <div className="flex-grow flex flex-row" key={index}>
-              <div className="w-1/4">
+            <div className=" w-full lg:w-1/2 flex flex-row flex-wrap my-4" key={index}>
+              <div className="w-full lg:w-1/4 my-2 ">
                 <Image
                   src={service.image}
                   alt={service.title}
@@ -70,7 +70,7 @@ const Service = ({ params }) => {
                 />
               </div>
 
-              <div className="px-8 w-3/4">
+              <div className="px-2 lg:px-8 w-full lg:w-3/4">
                 <h3 className="text-2xl text-secondary ">{service.title}</h3>
                 <p className={`text-xl mt-4 ${raleway.className}`}>
                   {service.description}
