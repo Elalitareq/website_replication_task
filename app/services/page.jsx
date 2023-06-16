@@ -9,6 +9,7 @@ import ai from "../assets/png/ai.png";
 import eCommerce from "../assets/png/e-commerce-icon.png";
 import dsBi from "../assets/png/data-science-and-bi-business-intelligence-icon.png";
 import dgitalMarketing from "../assets/png/digital-marketing-icon.png";
+import FadeAnimator from "../components/fadeAnimator";
 
 
 const myArray = [
@@ -65,6 +66,9 @@ const Services = () => {
   return (
     <>
       <section className="bg-light my-8  p-8 lg:p-16">
+
+          <FadeAnimator y={0} x={100}>
+
         <h1 className="text-4xl font-bold text-primary tracking-wide mb-6">
           SUSTAINABLE TECHNOLOGY SERVICES CUSTOMIZED FOR YOUR ORGANIZATION
         </h1>
@@ -77,13 +81,16 @@ const Services = () => {
           long-term vision and architect the right solution with our technical
           and industry-specific domain expertise.
         </p>
+          </FadeAnimator>
       </section>
       <section className="p-8 lg:p-16 lg:pb-8 flex justify-center sm:justify-between flex-wrap">
         {myArray.map((card, index) => {
           return (
             <div  key={index}  className={`min-w-[25%] mb-8 `}>
-
+                <FadeAnimator>
+                  
               <ServiceCard card={card}/>
+                </FadeAnimator>
             </div>
           );
         })}

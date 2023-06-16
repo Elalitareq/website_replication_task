@@ -2,7 +2,7 @@
 import { useInView, motion, useAnimation } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 
-const FadeAnimator = ({ children ,y=75,x=0}) => {
+const FadeAnimator = ({ children ,y=75,x=0,h="fit-content",w="100%"}) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const mainControls=useAnimation()
@@ -16,7 +16,7 @@ const FadeAnimator = ({ children ,y=75,x=0}) => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isInView]);
   return (
-    <div style={{width:"100%",position:"relative"}} ref={ref}>
+    <div style={{width:w,position:"relative",height:h}} ref={ref}>
 
     <motion.div
     variants={{
@@ -25,7 +25,7 @@ const FadeAnimator = ({ children ,y=75,x=0}) => {
       }}
       initial="hidden"
       animate={mainControls}
-      transition={{ duration: 1, delay: 0.25 }}
+      transition={{ duration: .7, delay: 0.25 }}
     >
       {children}
     </motion.div>
