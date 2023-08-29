@@ -47,7 +47,7 @@ const Careers = () => {
         className={`max-w-[1350px] m-auto  p-8 lg:p-16  leading-loose ${raleway.className}`}
       >
         <div className="flex flex-wrap mb-16 ">
-          <h2 className="w-full lg:w-[33%]  text-left text-primary text-2xl  font-light mb-6">
+          <h2 className="w-full lg:w-[33%]  text-left text-primary text-2xl  font-semibold mb-6">
             WORKING AT ACKSESSION MEANS FLEXIBILITY, TRUST AND MEANINGFUL
             CHOICES
           </h2>
@@ -68,7 +68,7 @@ const Careers = () => {
           </div>
         </div>
         <div className="flex flex-wrap flex-row">
-          <h2 className="w-full lg:w-[33%] text-primary text-2xl font-light text-left mb-6">
+          <h2 className="w-full lg:w-[33%] text-primary text-2xl font-semibold text-left mb-6">
             {" "}
             LEARN ABOUT OUR VALUES
           </h2>
@@ -87,7 +87,7 @@ const Careers = () => {
         </div>
       </section>
       <section className="w-full bg-secondary text-white text-2xl">
-        <h2 className="max-w-[1350px] m-auto   p-8 lg:px-16">
+        <h2 className="max-w-[1350px] m-auto font-semibold  p-8 lg:px-16">
           YOU DECIDE WHAT COMES NEXT. CHOOSE YOUR CAREER PATH
         </h2>
       </section>
