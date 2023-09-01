@@ -262,10 +262,10 @@ const About = () => {
         <div
           className={`lg:absolute inset-0 w-full h-full flex justify-center items-center ${raleway.className}`}
         >
-            <div className=" bg-white z-30  p-8 lg:p-8 w-full lg:w-1/2  h-1/2 flex flex-col justify-between">
+            <div className=" bg-whiter z-30  p-8 lg:p-8 w-full lg:w-1/2  h-1/2 flex flex-col justify-between">
               <div>
                 <h2 className="text-4xl text-primary ">OUR LOCATIONS</h2>
-                <p className={`text-xl text-black mt-3  ${raleway.className}`}>
+                <p className={`text-xl  mt-3  ${raleway.className}`}>
                   We are a multinational company, headquartered in the USA,
                   operating in Istanbul Turkey, and Beirut Lebanon
                 </p>

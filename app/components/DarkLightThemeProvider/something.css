@@ -1,0 +1,17 @@
+/* Default (Light) Theme */
+[data-theme='light'] {
+    --color-primary: #fca600;
+    --color-secondary: #00768F;
+    --color-light: #e5f7fb;
+    --color-whiter: #ffffff;
+    --color-accent: #1b849b;
+  }
+  
+  /* Dark Theme */
+  [data-theme='dark'] {
+    --color-primary: #915D00;    /* Darker shade for primary */
+    --color-secondary: #004E5A;  /* Darker shade for secondary */
+    --color-light: #192F36;      /* Darker shade for light */
+    --color-whiter: #222222;      /* Darker shade for white */
+    --color-accent: #0D424C;     /* Darker shade for accent */
+  }

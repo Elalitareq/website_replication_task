@@ -17,11 +17,12 @@ module.exports = {
         saira: ["Saira", "sans-serif"],
       },
       colors: {
-        primary: "#fca600",
-        secondary: "#00768F",
-        light: "#e5f7fb",
-        white: "#ffffff",
-        accent: "#1b849b",
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
+        light: 'var(--color-light)',
+        whiter: 'var(--color-whiter)',
+        accent: 'var(--color-accent)',
+        blacker: 'var(--color-blacker)',
       },
       backgroundImage: {
         "gradient-hack-background":

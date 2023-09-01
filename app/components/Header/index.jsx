@@ -6,6 +6,7 @@ import logo from "../../assets/png/acksession_logo.png";
 import { usePathname } from "next/navigation";
 import CustomLink from "../CustomLink.jsx";
 import whiteLogo from "../../assets/png/acksession_logo_white.png"
+import ToggleTheme from "../toggleLightAndDarkModeButton";
 // application routes
 const routes = [
   { path: "/", label: "Home" },
@@ -69,23 +70,23 @@ const Header = () => {
           <span></span>
           <span></span>
         </button>
-
         <nav
           className={`${
             isNavOpen ? "max-h-56 visible" : "max-h-0 invisible"
           } bg-light  lg:max-h-52 lg:visible px-16 lg:px-4 pb-4 text-center flex lg:bg-transparent flex-col lg:flex-row lg:items-center absolute top-full left-0 lg:static w-full lg:w-auto overflow-hidden lg:overflow-auto transition-all duration-400 ease-in-out lg:flex lg:flex-grow lg:py-2 justify-end`}
-        >
+          >
           {routes.map((route, index) => (
             <CustomLink
             textColored={scrollPosition>50}
             isNavOpen={isNavOpen}
             closeNav={closeNav}
-              path={route.path}
-              label={route.label}
-              pathname={pathname}
-              key={index}
+            path={route.path}
+            label={route.label}
+            pathname={pathname}
+            key={index}
             />
-          ))}
+            ))}
+            <ToggleTheme/>
         </nav>
       </div>
     </header>
