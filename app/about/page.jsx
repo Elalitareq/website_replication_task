@@ -110,14 +110,13 @@ const About = () => {
         <div className="flex flex-wrap">
           <div className="w-full lg:w-1/4  flex lg:block   ">
             <div className="relative">
-              <span className="absolute w-1 lg:w-full h-full lg:h-1 bg-light bottom-0 left-1/2 lg:left-0 lg:bottom-1/2 -z-10"></span>
 
               <Image
                 src={numb1}
                 alt="1"
                 width={50}
                 height={80}
-                className="h-[70px] w-auto bg-light px-2 py-2"
+                className="h-[70px] w-auto  px-2 py-2"
               />
             </div>
 
@@ -140,13 +139,12 @@ const About = () => {
 
           <div className="w-full lg:w-1/4  flex lg:block  ">
             <div className="relative lg:px-6">
-              <span className="absolute w-1 lg:w-full h-full lg:h-1 bg-light bottom-0 left-1/2 lg:left-0 lg:bottom-1/2 -z-10"></span>
               <Image
                 src={numb2}
                 alt="1"
                 width={50}
                 height={80}
-                className="h-[70px] w-auto bg-light px-2 py-2"
+                className="h-[70px] w-auto  px-2 py-2"
               />
             </div>
             <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto ">
@@ -168,13 +166,12 @@ const About = () => {
 
           <div className="w-full lg:w-1/4  flex lg:block  ">
             <div className="relative lg:px-6">
-              <span className="absolute  w-1 lg:w-full h-full lg:h-1 bg-light bottom-0 left-1/2 lg:left-0 lg:bottom-1/2 -z-10"></span>
               <Image
                 src={numb3}
                 alt="1"
                 width={50}
                 height={80}
-                className="h-[70px] w-auto bg-light px-2 py-2"
+                className="h-[70px] w-auto  px-2 py-2"
               />
             </div>
             <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto ">
@@ -196,13 +193,12 @@ const About = () => {
 
           <div className="w-full lg:w-1/4  flex lg:block  ">
             <div className="relative lg:pl-12">
-              <span className="absolute w-12 h-1 hidden lg:block bg-light left-0 bottom-1/2 -z-10"></span>
               <Image
                 src={numb4}
                 alt="1"
                 width={50}
                 height={80}
-                className="h-[70px] w-auto bg-light px-2 py-2"
+                className="h-[70px] w-auto  px-2 py-2"
               />
             </div>
             <div className="w-3/4 flex-grow pb-4 lg:pb-0 lg:w-auto ">
@@ -264,7 +260,7 @@ const About = () => {
         >
             <div className=" bg-whiter z-30  p-8 lg:p-8 w-full lg:w-1/2  h-1/2 flex flex-col justify-between">
               <div>
-                <h2 className="text-4xl text-primary ">OUR LOCATIONS</h2>
+                <h2 className="text-4xl font-bold text-primary ">OUR LOCATIONS</h2>
                 <p className={`text-xl  mt-3  ${raleway.className}`}>
                   We are a multinational company, headquartered in the USA,
                   operating in Istanbul Turkey, and Beirut Lebanon
