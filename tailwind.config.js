@@ -21,6 +21,7 @@ module.exports = {
         secondary: "var(--color-secondary)",
         "primary-derv": "#cf8c07",
         light: "var(--color-light)",
+        "light-dark": "var(--color-light-dark)",
         whiter: "var(--color-whiter)",
         accent: "var(--color-accent)",
         blacker: "var(--color-blacker)",

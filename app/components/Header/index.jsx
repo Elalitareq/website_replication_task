@@ -43,7 +43,7 @@ const Header = () => {
   return (
     <header
       className={`fixed inset-0 w-full transition-colors duration-500 h-28 lg:h-36 z-50  ${
-        scrollPosition > 50 || isNavOpen ? "bg-light" : "bg-transparent"
+        scrollPosition > 50 || isNavOpen ? "bg-light-dark" : "bg-transparent"
       }`}
     >
       <div className="lg:w-full px-4 lg:px-[50px] py-4 lg:py-4 flex items-center justify-between relative">

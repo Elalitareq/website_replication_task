@@ -17,6 +17,7 @@
   --color-primary: #fca600;
   --color-secondary: #00768f;
   --color-light: #e5f7fb;
+  --color-light-dark: #cae5eb;
   --color-whiter: #ffffff;
   --color-accent: #1b849b;
   --color-blacker: #333;
@@ -28,6 +29,7 @@
   --color-primary: #915d00; /* Darker shade for primary */
   --color-secondary: #004e5a; /* Darker shade for secondary */
   --color-light: #192f36; /* Darker shade for light */
+  --color-light-dark: #284a54;
   --color-whiter: #222222; /* Darker shade for white */
   --color-accent: #0d424c; /* Darker shade for accent */
   --color-blacker: #ccc;
