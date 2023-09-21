@@ -21,9 +21,7 @@ const Careers = () => {
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
   };
-  useEffect(()=>{
-
-  },[searchTerm])
+  useEffect(() => {}, [searchTerm]);
 
   const filteredJobs = jobVacancyArray.filter((job) =>
     job.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -139,9 +137,7 @@ const Careers = () => {
         <p className={` text-xl mt-4 ${raleway.className}`}>
           Introduce yourself! We are constantly on the lookout for savvy people
         </p>
-        <p
-          className={` text-xl mt-4 text-secondary ${raleway.className}`}
-        >
+        <p className={` text-xl mt-4 text-secondary ${raleway.className}`}>
           career@acksession.com
         </p>
       </section>

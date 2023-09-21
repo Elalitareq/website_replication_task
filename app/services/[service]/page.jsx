@@ -66,7 +66,7 @@ const Service = ({ params }) => {
                   alt={service.title}
                   width={80}
                   height={80}
-                  className="p-4 rounded-full bg-white"
+                  className="p-4 rounded-full bg-whiter"
                 />
               </div>
 
