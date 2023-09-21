@@ -1,4 +1,3 @@
-
 import HeroSection from "./components/heroSection";
 import ServicesHomeSection from "./components/servicesHomeSection";
 import InnovateSection from "./components/innovateSection";
@@ -10,11 +9,11 @@ export default function Home() {
     <>
       <HeroSection />
 
-        <ServicesHomeSection />
-        
-        <FadeAnimator y={0} x={-100}>
-      <InnovateSection />
-        </FadeAnimator>
+      <ServicesHomeSection />
+
+      <FadeAnimator y={0} x={-100}>
+        <InnovateSection />
+      </FadeAnimator>
       <ContactSection />
     </>
   );
