@@ -61,31 +61,34 @@ const Header = () => {
           height={"auto"}
           className="mt-1 mr-4 py-[5px] w-[200px] lg:w-[285px]"
         />
+        <div className="flex flex-row gap-4 items-center">
+          <ToggleTheme className="relative lg:hidden" />
 
-        <button
-          onClick={toggleNav}
-          className={`nav-icon lg:hidden ${isNavOpen ? "open" : ""} ${
-            (pathname === "/about" || pathname === "/careers") &&
-            scrollPosition < 50
-              ? "scary"
-              : ""
-          }`}
-          type="button"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+          <button
+            onClick={toggleNav}
+            className={`nav-icon lg:hidden ${isNavOpen ? "open" : ""} ${
+              (pathname === "/about" || pathname === "/careers") &&
+              scrollPosition < 50
+                ? "scary"
+                : ""
+            }`}
+            type="button"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
         <nav
           className={`${
             isNavOpen ? "max-h-56 visible" : "max-h-0 invisible"
-          } bg-light  lg:max-h-52 lg:visible px-16 lg:px-4 pb-4 text-center flex lg:bg-transparent flex-col lg:flex-row lg:items-center absolute top-full left-0 lg:static w-full lg:w-auto overflow-hidden lg:overflow-auto transition-all duration-400 ease-in-out lg:flex lg:flex-grow lg:py-2 justify-end`}
+          } bg-light-dark  lg:max-h-52 lg:visible px-16 lg:px-4 py-4 text-center flex lg:bg-transparent flex-col lg:flex-row lg:items-center absolute top-full left-0 lg:static w-full lg:w-auto overflow-hidden lg:overflow-auto transition-all duration-400 ease-in-out lg:flex lg:flex-grow lg:py-2 justify-end`}
         >
           {routes.map((route, index) => (
             <CustomLink
@@ -98,7 +101,7 @@ const Header = () => {
               key={index}
             />
           ))}
-          <ToggleTheme />
+          <ToggleTheme className="relative hidden lg:block" />
         </nav>
       </div>
     </header>

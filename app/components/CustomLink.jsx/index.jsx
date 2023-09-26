@@ -27,7 +27,7 @@ const CustomLink = ({
           ? "bg-primary text-white hover:bg-primary-derv"
           : isAbout && !textColored && !isNavOpen
           ? "bg-transparent text-white"
-          : "bg-transparent text-secondary"
+          : "bg-transparent text-primary"
       } hover:bg-primary hover:text-white`}
     >
       {label}

@@ -3,7 +3,7 @@
 import React from "react";
 import { useTheme } from "next-themes";
 
-const ToggleTheme = () => {
+const ToggleTheme = (props) => {
   const { theme, setTheme } = useTheme();
 
   const toggleTheme = () => {
@@ -11,7 +11,7 @@ const ToggleTheme = () => {
   };
 
   return (
-    <div className="relative">
+    <div {...props}>
       <input
         type="checkbox"
         id="darkmode-toggle"
